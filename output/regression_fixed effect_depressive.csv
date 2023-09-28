@@ -1,0 +1,34 @@
+0,1,2,3
+,low IPV,middle IPV,high IPV
+Dep. Variable,depressive_disorders_DALYs_rate,depressive_disorders_DALYs_rate,depressive_disorders_DALYs_rate
+Estimator,PanelOLS,PanelOLS,PanelOLS
+No. Observations,2096,1984,2010
+Cov. Est.,Unadjusted,Unadjusted,Unadjusted
+R-squared,0.0555,0.1505,0.0801
+R-Squared (Within),0.1394,0.1604,0.1467
+R-Squared (Between),-0.1260,0.0271,-0.1979
+R-Squared (Overall),-0.0801,0.0192,-0.1398
+F-statistic,14.609,41.477,20.694
+P-value (F-stat),0.0000,0.0000,0.0000
+=======================================,=================================,=================================,=================================
+const,97.375***,85.898***,91.275***
+ ,(9.1996),(8.4832),(10.811)
+IPV_indicator,4.2447***,1.2652**,2.2066***
+ ,(4.0030),(2.4911),(9.4449)
+audiologists_and_counsellors,0.3865,-1.7569***,-8.1938***
+ ,(1.2419),(-3.1926),(-6.3131)
+psychologists,0.4776**,1.4103***,-8.8508***
+ ,(2.2583),(4.1540),(-5.9567)
+physicians_clinical_officers_and_chws,0.2178***,-0.1327,-1.5819***
+ ,(3.3368),(-1.2042),(-4.2310)
+aides_emergency_medical_workers,-0.0266,0.1151*,-0.8180***
+ ,(-0.5003),(1.7785),(-3.3143)
+nursing_and_midwifery_personnel,0.1918***,0.0794,-0.4615**
+ ,(4.1865),(1.3317),(-2.3548)
+all_health_workers,-0.0810**,-0.1518***,0.9232***
+ ,(-2.0568),(-3.5854),(5.2525)
+socio_demographic_index,-63.564***,42.618***,-40.288***
+ ,(-5.7542),(3.7115),(-3.7212)
+=========================================,===================================,===================================,===================================
+Effects,Entity,Entity,Entity
+,Time,Time,Time

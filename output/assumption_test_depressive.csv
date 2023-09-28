@@ -1,0 +1,19 @@
+,ipv_category,0,1,2
+Test,low IPV,Breusch-Pagan Test,Durbin-Watson Test,Hausman-Test
+H0,low IPV,Homoskedasticity,Non-Auto-correlation,random effect
+H1,low IPV,Heteroskedasticity,Auto-correlation,fixed effect
+stat,low IPV,35.4576,1.8895,37.8682
+pvalue,low IPV,0.0,,0.0
+conclusion,low IPV,Heteroskedasticity,positive auto correlation,fixed effect
+Test,middle IPV,Breusch-Pagan Test,Durbin-Watson Test,Hausman-Test
+H0,middle IPV,Homoskedasticity,Non-Auto-correlation,random effect
+H1,middle IPV,Heteroskedasticity,Auto-correlation,fixed effect
+stat,middle IPV,42.0488,1.9961,48.5386
+pvalue,middle IPV,0.0,,0.0
+conclusion,middle IPV,Heteroskedasticity,positive auto correlation,fixed effect
+Test,high IPV,Breusch-Pagan Test,Durbin-Watson Test,Hausman-Test
+H0,high IPV,Homoskedasticity,Non-Auto-correlation,random effect
+H1,high IPV,Heteroskedasticity,Auto-correlation,fixed effect
+stat,high IPV,142.7807,1.9508,38.4922
+pvalue,high IPV,0.0,,0.0
+conclusion,high IPV,Heteroskedasticity,positive auto correlation,fixed effect
